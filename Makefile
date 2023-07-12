@@ -1,5 +1,5 @@
 install:
-	poetry instsall
+	poetry install
 
 build:
 	poetry build
@@ -8,7 +8,13 @@ publish:
 	poetry publish --dry-run
 
 package-install:
-	pipx install dist/hexlet_code-0.1.0-py3-none-any.whl
+	pipx install --force dist/*.whl
 
 brain-games:
 	poetry run brain-games
+
+brain-even:
+	poetry run brain-even
+
+make lint:
+	poetry run flake8 brain_games
