@@ -1,10 +1,13 @@
+#!/usr/bin/env python3
 import random
+import prompt
 
 
 def main():
     print("Welcome to the Brain Games!")
-    print("May I have your name?")
-    name = input()
+    name = prompt.string('May I have your name? ')
+    # print("May I have your name?")
+    # name = input()
     print(f'Hello, {name}!')
     print('Answer "yes" if the number is even, otherwise answer "no"')
     for n in range(0, 3):
@@ -20,9 +23,9 @@ def main():
         if answer == correct_answer:
             print("Correct!")
         else:
-            print(f"{answer} is wrong answer ;(. Correct answer was"
-                f"{correct_answer}."
-                f"Let's try again, {name}!")
+            print(f"{answer} is wrong answer ;(. "
+                  f"Correct answer was {correct_answer}. "
+                  f"Let's try again, {name}!")
             return
     print(f"Congratulations, {name}!")
 
