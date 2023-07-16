@@ -10,12 +10,12 @@ def main():
     print('What is the result of the expression?')
     for n in range(0, 3):
         ops = ['+', '-', '*']
-        operation = random.choice(ops)
-        num_1, num_2 = random.randint(0, 100), random.randint(0, 100)
-        print(f"Question: {num_1} {operation} {num_2}")
+        opn = random.choice(ops)
+        num_1, num_2 = random.randint(0, 10), random.randint(0, 10)
+        print(f"Question: {num_1} {opn} {num_2}")
         print("Your answer: ")
         answer = int(input())
-        correct_answer = eval(f'{num_1} {operation} {num_2}')
+        correct_answer = eval(f'{num_1} {opn} {num_2}')
         # try:
         #     answer = int(answer)
         # except ValueError:
