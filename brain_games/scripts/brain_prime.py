@@ -7,7 +7,7 @@ def main():
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print('Answer "yes" if given number is prime. Otherwise answer "no"')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     for n in range(0, 3):
         num = random.randint(0, 50)
         print(f"Question: {num}")
