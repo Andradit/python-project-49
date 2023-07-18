@@ -7,7 +7,7 @@ def main():
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print('Find the greatest common divisor of given numbers.')
+    print('What number is missing in the progression?')
     for n in range(0, 3):
         item = []
         step = random.randint(1, 5)
