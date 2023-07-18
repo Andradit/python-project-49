@@ -12,14 +12,14 @@ def main():
         item = []
         step = random.randint(1, 5)
         num = random.randint(1, 50)
-        for x in range(random.randint(5, 10)):
+        for x in range(random.randint(6, 10)):
             num += step
             item.append(num)
             item.sort()
         correct_answer = item[random.randint(0, x)]
         for i, var in enumerate(item):
             if var == correct_answer:
-                item[i] = ' .. '
+                item[i] = '..'
         print(f"Question: {' '.join(str(i) for i in item)}")
         print("Your answer: ")
         answer = int(input())
