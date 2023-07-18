@@ -9,7 +9,7 @@ def main():
     # print("May I have your name?")
     # name = input()
     print(f'Hello, {name}!')
-    print('Answer "yes" if the number is even, otherwise answer "no"')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     for n in range(0, 3):
         number = random.randint(0, 100)
         print(f"Question: {number}")
