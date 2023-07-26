@@ -46,7 +46,7 @@ $ brain-even
 ```
 You have to answer "yes" or "no".
 
-[![asciicast](https://asciinema.org/a/MJce7KxZGXgjqL1qikuJ4H65X.svg)](https://asciinema.org/a/MJce7KxZGXgjqL1qikuJ4H65X)
+[![asciicast](https://asciinema.org/a/wgaKJZF3WAWyU6Sly25bEYyaE.svg)](https://asciinema.org/a/wgaKJZF3WAWyU6Sly25bEYyaE)
 
 ### Start Brain Calc
 To start the game, run either:
