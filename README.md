@@ -34,6 +34,7 @@ Clone the repository and install manually:
 
 ```bash
 $ git clone git@github.com:Andradit/python-project-49.git
+$ cd python-project-49/
 $ make install
 $ make build
 $ make package-install
@@ -45,7 +46,7 @@ $ brain-even
 ```
 You have to answer "yes" or "no".
 
-[![asciicast](https://asciinema.org/a/wgaKJZF3WAWyU6Sly25bEYyaE.svg)](https://asciinema.org/a/wgaKJZF3WAWyU6Sly25bEYyaE)
+<a href="https://asciinema.org/a/wgaKJZF3WAWyU6Sly25bEYyaE" target="_blank"><img src="https://asciinema.org/a/wgaKJZF3WAWyU6Sly25bEYyaE.svg" /></a>
 
 ### Start Brain Calc
 To start the game, run either:
