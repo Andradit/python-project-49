@@ -11,7 +11,7 @@ repository = "https://github.com/Andradit/python-project-49"
 # ...
 classifiers = [
     "Topic :: Games/Entertainment :: Math Games",
-    "Natural Language :: English": ["Natural Language :: English"]
+    "Natural Language :: English"
 ]
 
 [tool.poetry.scripts]
