@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "brain_games"}]
 repository = "https://github.com/Andradit/python-project-49"
 
-[tool.poetry]
+[tool.poetry.classifiers]
 # ...
 classifiers = [
     "Topic :: Games/Entertainment :: Math Games",
