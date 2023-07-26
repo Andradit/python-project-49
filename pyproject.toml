@@ -2,16 +2,14 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "Five single-choice math games"
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
 authors = ["Andradit <drakushev@mail.ru>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
 repository = "https://github.com/Andradit/python-project-49"
-
-[tool.poetry.classifiers]
-classifiers = [
-    "Topic :: Games/Entertainment :: Math Games",
-    "Natural Language :: English"
-]
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
