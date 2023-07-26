@@ -8,7 +8,6 @@ packages = [{include = "brain_games"}]
 repository = "https://github.com/Andradit/python-project-49"
 
 [tool.poetry.classifiers]
-# ...
 classifiers = [
     "Topic :: Games/Entertainment :: Math Games",
     "Natural Language :: English"
