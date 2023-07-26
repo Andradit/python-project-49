@@ -46,7 +46,7 @@ $ brain-even
 ```
 You have to answer "yes" or "no".
 
-<script async id="asciicast-MJce7KxZGXgjqL1qikuJ4H65X" src="https://asciinema.org/a/MJce7KxZGXgjqL1qikuJ4H65X.js"></script>
+[![asciicast](https://asciinema.org/a/MJce7KxZGXgjqL1qikuJ4H65X.svg)](https://asciinema.org/a/MJce7KxZGXgjqL1qikuJ4H65X)
 
 ### Start Brain Calc
 To start the game, run either:
