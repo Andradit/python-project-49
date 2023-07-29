@@ -5,8 +5,7 @@ from brain_games.games import progression
 
 
 def main():
-    engine.run_game(progression.generate_question, 'What number is missing '
-                    'in the progression?')
+    engine.run_game(progression)
 
 
 if __name__ == '__main__':

@@ -1,18 +1,24 @@
 import random
+# import math
 
 MIN_NUMBER = 1
 MAX_NUMBER = 50
+DESCRIPTION = ('Answer "yes" if given '
+               'number is prime. Otherwise answer "no".')
+
+
+def is_prime(num):
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
 
 
 def generate_question():
-    num = random.randint(MIN_NUMBER, MAX_NUMBER)
+    number = random.randint(MIN_NUMBER, MAX_NUMBER)
     correct_answer = ''
-    for i in range(2, num):
-        if num % i != 0:
-            correct_answer = 'yes'
-        else:
-            correct_answer = 'no'
-            break
-    if num == 2:
+    if is_prime(number) is True:
         correct_answer = 'yes'
-    return num, correct_answer
+    else:
+        correct_answer = 'no'
+    return number, correct_answer

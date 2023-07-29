@@ -5,8 +5,7 @@ from brain_games.games import even
 
 
 def main():
-    engine.run_game(even.generate_question, 'Answer "yes" if the '
-                    'number is even, otherwise answer "no".')
+    engine.run_game(even)
 
 
 if __name__ == '__main__':
