@@ -26,7 +26,7 @@ def generate_question():
     step = random.randint(MIN_STEP_NUMBER, MAX_STEP_NUMBER)
     start = random.randint(MIN_NUMBER, MAX_NUMBER)
     progression = generate_progression(length, start, step)
-    correct_answer_index = random.randint(0, len(progression))
+    correct_answer_index = random.randint(0, len(progression)-1)
     correct_answer = progression[correct_answer_index]
     progression[correct_answer_index] = '..'
     return ' '.join(str(i) for i in progression), str(correct_answer)
