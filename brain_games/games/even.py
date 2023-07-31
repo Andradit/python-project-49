@@ -8,13 +8,18 @@ DESCRIPTION = ('Answer "yes" if the '
 
 def is_even(num):
     if num % 2 == 0:
-        return 'yes'
+        return True
     else:
-        return 'no'
+        return False
 
 
 def generate_question():
     number = random.randint(MIN_NUMBER, MAX_NUMBER)
     correct_answer = ''
-    correct_answer = is_even(number)
+
+    if is_even(number):
+        correct_answer = 'yes'
+    else:
+        correct_answer = 'no'
+
     return str(number), correct_answer
